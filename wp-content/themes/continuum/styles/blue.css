@@ -1,0 +1,27 @@
+/* Style: Blue */
+
+#strip { background: url(blue/strip.png) repeat-x top center; height: 12px; }
+
+#featured h3, .archive_header, .post .cat-title, #comments h3, #respond h3 { background: #7f93b1; }
+
+#latest h3, .page .post .cat-title { background: #a5b1c0; }
+
+#popular h3 { background: #2c3d5f; }
+
+.postmeta h3, .widget h3, #footer-widgets h3 { background: #62799a; }
+
+.widget_woo_flickr h3 { background: none !important; }
+
+#footer-widgets h3, .widget_woo_blogauthorinfo h3 { background: #62799a !important; }
+
+#footer{padding: 30px 0 30px;background: url(blue/strip.png) repeat-x top center; color:#666;}
+
+.post-nav .prev a, .post-nav .next a { color: #bcc9d9 !important; }
+
+.nav li ul li a:hover, .nav li ul li.current_page_item a, .nav li ul li.current-menu-item a { background: #dce3ec; }
+
+#respond #commentform #submit { background: #9cadc5; border-color: #9cadc5; }
+
+#respond #commentform #submit:hover { background: #93a3b9; border-color: #93a3b9; }
+
+#loopedSlider .slide-content h2 { background: rgba(98, 121, 154, 0.8); }

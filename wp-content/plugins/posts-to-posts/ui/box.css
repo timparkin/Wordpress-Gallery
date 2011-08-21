@@ -1,0 +1,165 @@
+.p2p-placeholder {
+	color: #AAA;
+}
+
+.p2p-connections {
+	margin-bottom: 8px;
+}
+
+/* Tabs */
+
+.p2p-box .tabs-panel {
+	border-width: 1px;
+	border-style: solid;
+	display: none;
+	padding: 10px;
+}
+
+.p2p-box .p2p-tab-search {
+	display: block;
+}
+
+/* Connections */
+
+.p2p-connections {
+	margin-top: 4px;
+}
+
+.p2p-results,
+.p2p-connections {
+	background-color: #F9F9F9;
+	border-color: #DFDFDF;
+	border-radius: 3px;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.p2p-search + .p2p-results,
+.p2p-results + .p2p-navigation,
+.p2p-tab-create-post .button {
+	margin-top: 8px;
+}
+
+.p2p-results td,
+.p2p-connections td {
+	border-top: 1px solid #DFDFDF;
+}
+
+.p2p-connections th,
+.p2p-connections td,
+.p2p-results td {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+th.p2p-col-delete,
+td.p2p-col-delete,
+td.p2p-col-create {
+	padding: 0;
+}
+
+.p2p-col-delete a,
+.p2p-col-create a,
+.p2p-col-delete img,
+.p2p-col-create img {
+	padding: 5px 6px;
+}
+
+th.p2p-col-delete a {
+	padding-bottom: 8px;
+}
+
+.p2p-results tr:first-child td {
+	border-top: 0;
+}
+
+.p2p-connections {
+	width: 100%;
+}
+
+.p2p-connections th {
+	background-color: #F1F1F1;
+	text-align: left;
+}
+
+.p2p-connections td input {
+	width: 100%;
+}
+
+.p2p-col-create,
+.p2p-col-delete {
+	width: 16px;
+}
+
+.p2p-col-create a,
+.p2p-col-delete a {
+	display: block;
+	height: 16px;
+	margin-top: 1px;
+	opacity: 0.5;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+.p2p-col-create a:hover,
+.p2p-col-delete a:hover {
+	background-color: #f5f5f5;
+	border-right: 1px solid #ddd;
+	opacity: 1;
+	width: 15px;
+}
+
+.p2p-col-create a {
+	background: url("images/add.png") no-repeat scroll 50% 50% transparent;
+}
+
+.p2p-col-delete a {
+	background: url("images/delete.png") no-repeat scroll 50% 50% transparent;
+}
+
+.p2p-search .waiting {
+	margin-left: -20px;
+	opacity: 0.8;
+	vertical-align: -0.3em;
+}
+
+.p2p-tab-search input,
+.p2p-tab-create-post {
+	background-color: transparent;
+	padding-right: 22px;
+	margin: 0;
+}
+
+.p2p-tab-create-post input[type="text"] {
+	width: 94%;
+}
+
+#side-sortables .p2p-notice {
+	display: block;
+	margin-top: 8px;
+}
+
+/* Pagination */
+
+.p2p-navigation {
+	clear: both;
+	overflow: hidden;
+}
+
+.p2p-navigation .button.inactive, .p2p-navigation .button.inactive:hover {
+	border-color: #bbb;
+	color: #aaa;
+	background: #f6f6f6;
+	text-shadow: none;
+	cursor: default;
+}
+
+.p2p-navigation > * {
+	float: left;
+	line-height: 13px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-right: 5px;
+}
+

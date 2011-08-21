@@ -1,0 +1,84 @@
+# Translation of the WordPress plugin Posts 2 Posts 0.3 by scribu.
+# Copyright (C) 2010 scribu
+# This file is distributed under the same license as the Posts 2 Posts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts 2 Posts\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/p2p\n"
+"POT-Creation-Date: 2011-07-22 13:03:03+00:00\n"
+"PO-Revision-Date: 2011-07-22 16:04+0200\n"
+"Last-Translator: scribu <scribu@gmail.com>\n"
+"Language-Team: ROMANIAN <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: scb/AdminPage.php:161
+msgid "Settings <strong>saved</strong>."
+msgstr "Setări <strong>salvate</strong>."
+
+#: scb/AdminPage.php:174
+#: scb/AdminPage.php:185
+msgid "Save Changes"
+msgstr "Salvează schimbările"
+
+#: scb/AdminPage.php:367
+msgid "Settings"
+msgstr "Setări"
+
+#: ui/box.php:14
+msgid "Are you sure you want to delete all connections?"
+msgstr "Sigur vreți să ștergeți toate conexiunile?"
+
+#: ui/box.php:33
+msgid "Create connections:"
+msgstr "Creează conexiuni:"
+
+#: ui/box.php:64
+msgid "Search"
+msgstr "Căutare"
+
+#: ui/box.php:72
+msgid "Recent"
+msgstr "Recente"
+
+#: ui/box.php:148
+msgid "Previous"
+msgstr "Anterioare"
+
+#: ui/box.php:149
+msgid "Next"
+msgstr "Următoare"
+
+#: ui/box.php:150
+msgid "of"
+msgstr "din"
+
+#: ui/box.php:182
+msgid "Create connection"
+msgstr "Crează conexiune"
+
+#: ui/box.php:191
+msgid "Delete connection"
+msgstr "Șterge conexiune"
+
+#: ui/box.php:199
+msgid "Delete all connections"
+msgstr "Șterge toate conexiunile"
+
+#: ui.php:33
+msgid "Connected %s"
+msgstr "%s conectate"
+
+#~ msgid ""
+#~ "Start typing the title of a post you want to connect and then click on to "
+#~ "connect it."
+#~ msgstr ""
+#~ "Începe să scrii titlul post-ului de conectat și apoi fă click pentru a-l "
+#~ "conecta."
+
+#~ msgid "Enter IDs of posts to connect, separated by commas."
+#~ msgstr "Intrdu ID-uri ale post-urilor de conectat, separate prin virgulă."

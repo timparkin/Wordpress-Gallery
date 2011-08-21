@@ -1,0 +1,49 @@
+*** Continuum Changelog ***
+
+2011.05.28 - version 1.0.12
+ * css/ie7.css - Fixed comments not displaying.
+
+2011.03.17 - version 1.0.11
+ * style.css - Added post author styling
+ * single.php - Added post author box
+ * includes/theme-options.php - Added post author options
+
+2011.03.14 - version 1.0.10
+ * style.css - Fixed navigation z-index for IE7
+
+2011.01.11 - version 1.0.9 
+ * single.php - hide image thumbnail if post has a video
+
+2011.01.05 - version 1.0.8
+ * style.css - Changed all cases of san-serif to sans-serif
+
+2011.01.01 - version 1.0.7
+ * template-blog.php, archive.php, search.php - hide thumbnail image if showing the full post
+
+2010.12.31 - version 1.0.6
+ * index.php, includes/slider.php, includes/theme-options.php - added exclude option for slider posts in latest news section
+
+2010.12.30 - version 1.0.5
+ * style.css - fixed background issue on IE (line 224 and 226)
+
+2010.11.21 - version 1.0.4
+ * index.php - added clear fix after latest news post
+ * style.css - updated widget padding on lists
+
+2010.11.12 - version 1.0.3
+ * includes/theme-functions.php - fixed bug with saving custom field images
+ * style.css - fixed #header bg image repeat. Added video styling.
+ * images/bg-header.png - fixed to span for larger logos
+ * includes/widgets/woo-embed.php - fixed width
+ * single.php - added woo_embed
+ * includes/theme-options.php - added embed custom field
+
+2010.11.12 - version 1.0.2
+ * style.css - added missing styling for embed widget
+ * includes/widgets/widget-woo-embed.php - updated default video width to 230
+
+2010.11.03 - version 1.0.1
+ * style.css - fixed third level dropdown section 2.2 and 2.2.1
+	
+2010.10.25 - version 1.0
+ * First release!

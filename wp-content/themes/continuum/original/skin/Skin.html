@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+  xmlns:n="http://nevow.com/ns/nevow/0.1">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="description" n:render="meta_description" />
+  <meta name="keywords" n:render="meta_keywords" />   
+  <meta name="verify-v1" content="7i2pxtm73ytmnaYMe5nGoz+c4veTiB5BZwGZeU6kjN0=" />
+  <meta name="msvalidate.01" content="9D64C86C8F79EE1565FF16984574D36F" />
+  <meta name="blogcatalog" content="9BC9993438" />
+  <title n:render="title_tag"><n:slot name="title" /></title>
+  <link rel="openid.server" href="https://pip.verisignlabs.com/server" />
+  <link rel="openid.delegate" href="http://timparkin.pip.verisignlabs.com" />
+  <link href="/rss" type="application/rss+xml" rel="alternate" title="Tim Parkin - Still Developing" />
+  <link rel="stylesheet" type="text/css" href="/skin/js/yui/reset-fonts-grids/reset-fonts-grids.css" />
+  <link rel="stylesheet" type="text/css" href="/skin/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/skin/css/styles-inverted.css" />
+  <link rel="stylesheet" href="/skin/css/sIFR-screen.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/skin/css/sIFR-print.css" type="text/css" media="print" />  
+  <script src="/skin/js/sifr.js" type="text/javascript"></script>  
+  <script type="text/javascript" src="/skin/js/jquery-1.2.6.min.js"></script>
+  <script type="text/javascript" src="/skin/js/interface.js"></script>  
+  <script type="text/javascript" src="/skin/js/jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="/skin/js/sitehotkeys.js"></script>
+  <script src="/skin/js/sifr.js" type="text/javascript"></script>
+  <script src="/skin/js/sifr-config.js" type="text/javascript"></script>  
+  <n:slot name="headextra" />
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(document).ready(function() {
+  $('#form-humanCheck-field').hide();
+  $('#form-humanCheck').val('Parkin');
+  $('#subscribe-humanCheck-field').hide();
+  $('#subscribe-humanCheck').val('Parkin');
+  $('.rollover').each( function() {
+    $(this).mouseover(function() { 
+      $(this).attr('hsrc',$(this).attr('src'));
+      $(this).attr('src',$(this).attr('osrc'));
+       }).mouseout( function() {
+         $(this).attr('src', $(this).attr('hsrc'));
+       });
+    });
+
+});
+//--><!]]>
+</script>
+
+
+  
+</head>
+
+<body><n:attr name="class"><n:invisible n:render="bodyclass" /></n:attr>
+<n:slot name="admin" />
+
+<div id="main">
+  <div id="header">
+    <h1><a href="/"><n:invisible n:render="logotext">Tim Parkin - Landscape Photographer</n:invisible></a></h1>
+<!--    <n:invisible n:render="navigation type=1,maxdepth=1,showroot=True" />-->
+<ul>
+<li class=" first-child item-1"><a href="http://www.timparkin.co.uk/">Home</a></li>
+<li class=" item-2"><a href="http://www.timparkin.co.uk/blog">Blog</a></li>
+<li class=" item-10"><a href="http://www.timparkin.co.uk/workshops">Workshops</a></li>
+<li class=" item-3"><a href="http://www.timparkin.co.uk/news">News</a></li>
+<li class=" item-4"><a href="http://www.timparkin.co.uk/about">About</a></li>
+<li class="selected item-5"><a href="http://www.timparkin.co.uk/gallery">Gallery</a></li>
+<li class=" item-6"><a href="http://www.timparkin.co.uk/contact">Contact</a></li>
+<li class=" item-7"><a href="http://www.timparkin.co.uk/basket">Basket</a></li>
+<li class=" item-8"><a href="http://www.timparkin.co.uk/links">Links</a></li>
+<li class=" last-child item-9"><a href="http://www.timparkin.co.uk/articles">Articles</a></li>
+</ul>
+  </div>
+  <div id="body" class="clearfix">
+    <n:slot name="page-content" />
+  </div>
+</div>
+
+<div id="footer">
+  <div id="footercontent">
+    <div class="row1 clearfix">
+      <div class="search">
+        <h3>search</h3>
+        <div class="item">
+          <p>Use the following form to search this site. <!--Alternatively you may use the advanced search by clicking <a href="#">here"</a>-->.</p>
+        </div>
+        <form action="/search">
+          <fieldset>
+          <label for="text">search term</label>
+          <input id="text" name="q" type="text" />
+          <input class="action" type="submit" value="click here to search" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="subscribe">
+        <h3>subscribe</h3>
+        <div class="item">
+          <p>Please send me news alerts about significant news, events or promotions.</p>
+        </div>
+        <form id="form"  accept-charset="utf-8" action="/subscribe" method="post" enctype="multipart/form-data">
+          <fieldset>
+          <input type="hidden" name="_charset_" />
+          <input type="hidden" name="__nevow_form__" value="form" />
+          <div class="clearfix">
+<label for="name">Name</label><input type="text" name="name" id="name" />
+          </div>
+          <div class="clearfix">
+<label  for="email">Email</label><input type="text" name="email" id="email" />
+          </div>
+          <div class="clearfix" id="subscribe-humanCheck-field">
+<label  for="subscribe-humanCheck">Tim's Surname</label><input type="text" name="humanCheck" id="subscribe-humanCheck" />
+          </div>
+          <input type="submit" name="submit" value="click here to subscribe" class="action" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="info">
+        <h3>info</h3>
+        <div class="label">
+          <img alt="landscape photographer"><n:attr name="src">/skin/images/timparkin.jpg</n:attr></img>
+        </div>
+        <div class="item">
+
+          
+  <p>Tim Parkin<br />237 Lidgett Lane<br />Leeds<br />West Yorkshire<br />UK<br />LS17 6QR</p>
+  <p>+44 (0)113 216 7634</p>
+  <p><a href="mailto:info@timparkin.co.uk">info@timparkin.co.uk</a></p>
+  
+          
+  <p>© Tim Parkin 2007-2008</p>
+  <p>All Rights Reserved</p>
+  
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+sIFR.replace(helvetica, { selector: 'h2.sifr', css: ['.sIFR-root { background-color: #FFFFFF; color: #000000; font-size: 20px; }','a {text-decoration: none; color: #000000; }', 'a:hover { color: #000000; }'] });
+sIFR.replace(helvetica, { selector: '#content h2', css: ['.sIFR-root { background-color: #FFFFFF; color: #000000; font-size: 15px; }'] });
+sIFR.replace(helvetica, { selector: 'h3.sifr', css: ['.sIFR-root { background-color: #FFFFFF; color: #000000; font-size: 20px; }','a {text-decoration: none; color: #222222; }', 'a:hover { color: #222222; }' ] });
+sIFR.replace(helvetica, { selector: 'h4.sifr', css: ['.sIFR-root { background-color: #FFFFFF; color: #000000; font-size: 20px; }'] });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var pageTracker = _gat._getTracker("UA-6194229-1");
+pageTracker._setCookieTimeout("86400");
+pageTracker._trackPageview();
+//--><!]]>
+</script>
+</body>
+</html>

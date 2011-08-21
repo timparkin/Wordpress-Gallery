@@ -1,0 +1,27 @@
+/* Style: Brown */
+
+#strip { background: url(brown/strip.png) repeat-x top center; height: 12px; }
+
+#featured h3, .archive_header, .post .cat-title, #comments h3, #respond h3 { background: #b2917c; }
+
+#latest h3, .page .post .cat-title { background: #c0afa4; }
+
+#popular h3 { background: #613b29; }
+
+.postmeta h3, .widget h3, #footer-widgets h3 { background: #9c7660; }
+
+.widget_woo_flickr h3 { background: none !important; }
+
+#footer-widgets h3, .widget_woo_blogauthorinfo h3 { background: #9c7660 !important; }
+
+#footer{padding: 30px 0 30px;background: url(brown/strip.png) repeat-x top center; color:#666;}
+
+.post-nav .prev a, .post-nav .next a { color: #dac7ba !important; }
+
+.nav li ul li a:hover, .nav li ul li.current_page_item a, .nav li ul li.current-menu-item a { background: #ece2db; }
+
+#respond #commentform #submit { background: #c6ab9a; border-color: #c6ab9a; }
+
+#respond #commentform #submit:hover { background: #ad9b88; border-color: #ad9b88; }
+
+#loopedSlider .slide-content h2 { background: rgba(156, 118, 61, 0.8); }
