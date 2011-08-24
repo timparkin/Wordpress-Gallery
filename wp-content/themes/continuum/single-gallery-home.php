@@ -44,7 +44,6 @@ function break_array($array, $page_size) {
 
     <div id="gallerycontent" class="clearfix">
 
-  
 <?php
 $args = array( 'post_type' => 'gallery');
 $posts = get_posts($args);
@@ -61,7 +60,7 @@ foreach ($row as $post) {
 	$count++;
 	?>
    <div class="category c<?php echo $count; ?>">
-     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'single-post-thumbnail' ); ?></a>
+     <a href="<?php the_permalink(); ?>"><?php echo  get_the_post_thumbnail( $post->ID, array(190,250), $attr ) ?></a>
      <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
    </div>
 <?php

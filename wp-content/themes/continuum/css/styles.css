@@ -270,6 +270,11 @@ text-decoration: none;
   background: url(../images/bg-footersectionmasthead.gif) no-repeat;
   color: #FFF;
 }
+.home h3 {
+  padding: 0;
+  margin: 4px 0; 
+  background: none;
+}
 
 .item h4 a {
   color: #FFF;
@@ -845,9 +850,16 @@ font-size:120%;
   color: #000;
   font-size: 110%;
   margin: 4px 0;
+  background: none;
 }
 #homepageblogsummary .content .body {
  opacity: 0.99999;
+}
+
+#footercontent h3 {
+  padding-left: 100px;
+  padding-top: 10px;
+  margin-bottom: 20px;
 }
 
 #content h4 {

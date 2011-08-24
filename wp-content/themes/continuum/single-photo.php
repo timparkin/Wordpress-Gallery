@@ -6,7 +6,7 @@ $temp = $wp_query;
 $wp_query= null;
 $wp_query = new WP_Query();
 $query = new WP_Query(array( 'post_type' => 'gallery', 'connected_from' => $post->ID));
-$gallerytitle = $query->posts[0]->post_name;
+$gallerytitle = $query->posts[0]->post_title;
 $galleryid = $query->posts[0]->ID;
 $wp_query = new WP_Query( array( 'post_type' => 'photo', 'connected_to' => $galleryid));
 
@@ -52,24 +52,9 @@ $wp_query = $temp;
       <dt>date</dt>
       <dd>30th October 2008</dd>
       <dt>location</dt>
-      <dd>
-      
-
-      
-      
-<ul>
-<?php 
-$cats =  wp_get_post_terms($photo->ID,'location' );
-$c = array();
-foreach ($cats as $cat) {
-  $c[] = $cat->name;	
-}
-echo join($c,', ')
-
- ?>
-</ul>    
-      
-      </dd>
+      <dd><?php echo slt_cf_field_value( "location" ) ?></dd>
+      <dt>camera</dt>
+      <dd><?php echo slt_cf_field_value( "camera" ) ?></dd>
       <dt>lens</dt>
       <dd><?php echo slt_cf_field_value( "lens" ) ?></dd>
       <dt>speed</dt>

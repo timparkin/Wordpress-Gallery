@@ -52,9 +52,16 @@ function register_my_custom_fields() {
 		'priority'	=> 'high',
 		'fields'	=> array(
 			array(
+				'name'			=> 'location',
+				'label'			=> 'Location',
+				'type'			=> 'text',
+				'scope'			=> array( 'photo' ),
+				'capabilities'	=> array( 'edit_posts' )
+			),
+			array(
 				'name'			=> 'date_taken',
 				'label'			=> 'Date Taken',
-				'type'			=> 'text',
+				'type'			=> 'date',
 				'scope'			=> array( 'photo' ),
 				'capabilities'	=> array( 'edit_posts' )
 			),

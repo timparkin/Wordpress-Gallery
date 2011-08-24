@@ -1,9 +1,4 @@
 <?php
-/*
-Template Name: Gallery Home
-*/
-?>
-<?php
 function break_array($array, $page_size) {
   
   $arrays = array();
@@ -44,7 +39,6 @@ function break_array($array, $page_size) {
 
     <div id="gallerycontent" class="clearfix">
              
-  
 <?php
 $query = new WP_Query( array( 'post_type' => 'photo', 'connected_to' => $post->ID ));
 $rows = break_array($query->posts, 3);
